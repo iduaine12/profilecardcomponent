@@ -4,8 +4,8 @@ Profile Card Component
 This is a Profile Card Component challenge from frontend mentor.
 
 
-Built with
+### Built with
 
-Semantic HTML5 markup
-CSS custom properties
-Flexbox
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
