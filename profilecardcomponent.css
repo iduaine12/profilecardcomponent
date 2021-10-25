@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(profile-card-component-main/images/bg-pattern-top.svg), url(profile-card-component-main/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+
+.profile-card {
+    width: 340px;
+    height: 365px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.pic-container {
+    width: 96px;
+    height: 96px;
+    margin: -50px auto 0;
+    
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+.details-container {
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.about-me {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 10px 0 10px;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    padding: 0 0 0 2px;
+}
+
+.location {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 0;
+    border-top: 1px solid rgb(224, 224, 224);
+    height: 95px;
+}
+
+.followers, .likes, .photo {
+    text-align: center;
+}
+
+.stats {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.stat-name {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1094px){
+    .profile-card {
+        width: 325px;
+    }
+}
